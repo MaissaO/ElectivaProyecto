@@ -54,7 +54,8 @@ top:50%;
 left:50%;
 transform:translate(-50%,-50%);
 width:350px;
-height:420px;
+/*height:420px;*/
+height:400px;
 padding:80px 40px;
 box-sizing:border-box;
 background:rgba(0,0,0,.5);
@@ -98,6 +99,7 @@ margin-bottom:20px;
 	outline:none;
 	height:40px;
 	font-size:16px;
+	color:#fff;
 }
 ::placeholder
 {
@@ -108,8 +110,21 @@ margin-bottom:20px;
 	outline:none;
 	height:40px;
 	color:#fff;
+	font-size:16px;
+	background:#0FBC15;
+	cursor:pointer;
+	border-radius:20px;
 }
-
+.loginBox input[type="submit"]:hover{
+	background:#efed40;
+	color:#262626;
+}
+/*.loginBox a{
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
 /*https://www.youtube.com/watch?v=ylFLVBbB9AM
 min 8.03*/
 
